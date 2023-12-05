@@ -54,7 +54,7 @@ nav ul li .bi-arrow-down-short {
     display: none;
 }
 
-.dropdown1 ul li a{
+.dropdown1 ul li a {
     color: #333;
     transition: 0.3s;
     font-size: 12px;
@@ -80,7 +80,7 @@ nav ul li:hover .dropdown1 ul li {
     display: none;
 }
 
-.dropdown2 ul li a{
+.dropdown2 ul li a {
     color: #333;
     transition: 0.3s;
     font-size: 12px;
@@ -147,13 +147,13 @@ nav ul li:hover .dropdown2 ul li {
     font-size: 60px;
 }
 
-.sec1-fortext-p2{
+.sec1-fortext-p2 {
     color: white;
     font-size: 14px;
     margin: 5px 0px 20px;
 }
 
-.sec1-btn{
+.sec1-btn {
     color: #222222;
     font-size: 14px;
     padding: 12px 30px;
@@ -162,9 +162,222 @@ nav ul li:hover .dropdown2 ul li {
     font-weight: 500;
 }
 
-.sec1-btn:hover{
+.sec1-btn:hover {
     background-color: transparent;
     color: white;
     transition: .3s;
     cursor: pointer;
+}
+
+
+/* Section 2 */
+.section2 {
+    width: 100%;
+    height: 650px;
+}
+
+.sec2-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-p1 {
+    color: #222222;
+    font-size: 36px;
+    padding: 0px 0px 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.sec2-p2 {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+
+/* Boxs */
+.sec2-boxs {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Box 1 */
+.sec2-box1 {
+    width: 24%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+
+.sec2-box1-p1 {
+    color: #222222;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+}
+
+.sec2-box1-p2 {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+
+.sec2-box1-btn {
+    color: #222222;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    padding: 10px 30px;
+    background-color: rgb(143, 140, 140);
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sec2-box1:hover .sec2-box1-btn {
+    color: white;
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+
+/* Box 2 */
+.sec2-box2 {
+    width: 23%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+
+.sec2-box2-p1 {
+    color: #222222;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+}
+
+.sec2-box2-p2 {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+
+.sec2-box2-btn {
+    color: #222222;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    padding: 10px 30px;
+    background-color: rgb(143, 140, 140);
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sec2-box2:hover .sec2-box2-btn {
+    color: white;
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+
+/* Box 3 */
+.sec2-box3 {
+    width: 23%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+
+.sec2-box3-p1 {
+    color: #222222;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+}
+
+.sec2-box3-p2 {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+
+.sec2-box3-btn {
+    color: #222222;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    padding: 10px 30px;
+    background-color: rgb(143, 140, 140);
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sec2-box3:hover .sec2-box3-btn {
+    color: white;
+    background-color: purple;
+    border: 1px solid purple;
+}
+
+
+/* Box 4 */
+.sec2-box4 {
+    width: 23%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+
+.sec2-box4-p1 {
+    color: #222222;
+    font-size: 18px;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+}
+
+.sec2-box4-p2 {
+    color: #777777;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+
+.sec2-box4-btn {
+    color: #222222;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    padding: 10px 30px;
+    background-color: rgb(143, 140, 140);
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sec2-box4:hover .sec2-box4-btn {
+    color: white;
+    background-color: purple;
+    border: 1px solid purple;
 }
