@@ -13,19 +13,18 @@
 //             <p class="sec2-box1-p2">${item.description}</p>
 //             <button class="sec2-box1-btn"><a href = "./details.html?id=${item.id}" target="_blank" >VIEW DETAILS</a></button>
 //             </div>`;
-    
+
 //     });
 // })
 
-let navbar = document.getElementById('navbar');
-let nav = document.getElementById('nav');
+// let navbar = document.getElementById('navbar');
+// let nav = document.getElementById('nav');
 
-window.onscroll = function () { scrollFunction() };
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-       nav.style.backgroundColor = "#8a90FFE6";
-       navbar.style.backgroundColor = "red";
-    } else {
-        nav.style.backgroundColor = "";
-    }
-}
+// window.onscroll = function () { scrollFunction() };
+// function scrollFunction() {
+//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//         nav.style.backgroundColor = "#8a90FFE6";
+//     } else {
+//         nav.style.backgroundColor = "";
+//     }
+// }
