@@ -3,9 +3,9 @@ let sec2Boxs = document.getElementById('sec2Boxs');
 
 
 fetch(`http://localhost:3000/robots/${id}`)
-.then (res => res.json())
-.then(data => {
-    sec2Boxs.innerHTML += `
+    .then(res => res.json())
+    .then(data => {
+        sec2Boxs.innerHTML += `
     <div class="sec2-box1">
             <div class="sec2-box1-forimg">
                 <img src="${data.image}" alt="image/robot"
@@ -16,4 +16,4 @@ fetch(`http://localhost:3000/robots/${id}`)
             <button class="sec2-box1-btn">VIEW DETAILS</button>
         </div>
     `
-});
+    });
