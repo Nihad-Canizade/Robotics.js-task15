@@ -13,10 +13,16 @@ fetch("http://localhost:3000/robots")
             <p class="sec2-box1-p2">${item.description}</p>
             <button class="sec2-box1-btn"><a href = "./details.html?id=${item.id}" target="_blank"
             class = "sec2-box1-a" >VIEW DETAILS</a></button>
+            <button class = "delete-btn" onclick = "robotDelete(${item.id})">Delete</button
             </div>`;
 
     });
 })
+
+function robotDelete(id){
+    axios.delete(`http://localhost:3000/robots/${id}`)
+    window.location.reload()
+}
 
 // let navbar = document.getElementById('navbar');
 // let nav = document.getElementById('nav');

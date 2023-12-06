@@ -134,7 +134,7 @@ nav ul li:hover .dropdown2 ul li {
 
 .dropdown2 ul li:hover .dropdown2-1 ul {
     background-color: white;
-    padding: 10px 60px 10px 15px;
+    padding: 10px 40px 10px 15px;
     z-index: 9999;
 }
 
@@ -293,9 +293,26 @@ nav ul li:hover .dropdown2 ul li {
     color: #222222;
 }
 
+.delete-btn {
+    color: #222222;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    padding: 10px 30px;
+    background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+    border: 1px solid white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    color: white;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
 
 /* Box 2 */
-.sec2-box2 {
+/* .sec2-box2 {
     width: 23%;
     padding: 0px 0px 20px 0px;
     display: flex;
@@ -351,11 +368,11 @@ nav ul li:hover .dropdown2 ul li {
     background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
-}
+} */
 
 
 /* Box 3 */
-.sec2-box3 {
+/* .sec2-box3 {
     width: 23%;
     padding: 0px 0px 20px 0px;
     display: flex;
@@ -410,12 +427,12 @@ nav ul li:hover .dropdown2 ul li {
     color: white;
     background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
     transition: all 0.3s ease 0s;
-    -webkit-transition: all 0.3s ease 0s;
-}
+    -webkit-transition: all 0.3s ease 0s; */
+/* } */
 
 
-/* Box 4 */
-.sec2-box4 {
+/* /* Box 4 */
+/* .sec2-box4 {
     width: 23%;
     padding: 0px 0px 20px 0px;
     display: flex;
@@ -472,7 +489,7 @@ nav ul li:hover .dropdown2 ul li {
     background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
-}
+} */
 
 
 /* Section 3 */
