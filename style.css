@@ -284,6 +284,15 @@ nav ul li:hover .dropdown2 ul li {
     -webkit-transition: all 0.3s ease 0s;
 }
 
+.sec2-box1:hover .sec2-box1-a{
+    color: white;
+}
+
+.sec2-box1-a{
+    text-decoration: none;
+    color: #222222;
+}
+
 
 /* Box 2 */
 .sec2-box2 {
