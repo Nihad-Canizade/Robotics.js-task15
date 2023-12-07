@@ -26,14 +26,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    max-width: 1200px;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px; */
 }
 
 nav ul li {
@@ -126,7 +118,7 @@ nav ul li:hover .dropdown2 ul li {
 .dropdown2-1 {
     display: none;
     margin-top: -10px;
-    margin-left: 2rem;
+    margin-left: 10px;
     box-shadow: 0px 0px 2px black;
 }
 

@@ -202,6 +202,89 @@ nav ul li:hover .dropdown2 ul li {
 }
 
 
+/* The Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 24px 32px;
+    border: 1px solid #888;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.modal-p1,
+.modal-p2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.modal-input1,
+.modal-input2 {
+    margin-top: 2px;
+    margin-left: 10px;
+    padding: 5px 20px 5px 8px;
+    width: 90%;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.modal-btn {
+    margin-top: 1rem;
+    margin-left: 10px;
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(83, 83, 255);
+    border: 1px solid rgb(83, 83, 255);
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.modal-btn:hover {
+    cursor: pointer;
+    background-color: rgb(76, 76, 250);
+    border: 1px solid rgb(76, 76, 250);
+}
+
+.modal-btn:active {
+    background-color: rgb(53, 53, 252);
+    border: 1px solid rgb(53, 53, 252);
+}
+
+
+/* The Close */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+
 /* Section 1 */
 .section1 {
     width: 100%;
@@ -280,6 +363,7 @@ nav ul li:hover .dropdown2 ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Box 1 */
@@ -293,6 +377,7 @@ nav ul li:hover .dropdown2 ul li {
     cursor: pointer;
     background-color: #F9F9FF;
     box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+    margin-bottom: 3rem;
 }
 
 .sec2-box1-forimg {
@@ -350,7 +435,8 @@ nav ul li:hover .dropdown2 ul li {
     color: #222222;
 }
 
-.delete-btn {
+/* New Button */
+.new-btn {
     color: #222222;
     font-size: 14px;
     margin: 10px 0px 0px;
@@ -361,10 +447,34 @@ nav ul li:hover .dropdown2 ul li {
     cursor: pointer;
 }
 
-.delete-btn:hover {
+.new-btn:hover {
     color: white;
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
+}
+
+/* Load More Button */
+.for-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.loadmore-btn {
+    color: white;
+    font-size: 14px;
+    margin: 10px 0px 0px;
+    padding: 10px 30px;
+    background-color: rgb(54, 163, 235);
+    border: 1px solid rgb(54, 163, 235);
+    font-weight: 600;
+}
+
+.loadmore-btn:hover {
+    cursor: pointer;
+    background-color: rgb(26, 142, 250);
+    border: 1px solid rgb(26, 142, 250);
 }
 
 
